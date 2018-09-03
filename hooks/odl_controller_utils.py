@@ -84,7 +84,8 @@ PROFILES = {
     },
     "openvswitch-odl-boron-sfc": {
         "feature:install": ["odl-ovsdb-sfc-rest",
-                            "odl-dlux-all"],
+                            "odl-dlux-all",
+                            "odl-l2switch-switch-ui"],
         "port": 8080
     },
 }
