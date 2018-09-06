@@ -88,6 +88,20 @@ PROFILES = {
                             "odl-l2switch-switch-ui"],
         "port": 8080
     },
+    "openvswitch-odl-nitrogen-sfc": {
+        "feature:install": ["odl-restconf-all",
+                            "odl-aaa-authn",
+                            "odl-netvirt-openstack",
+                            "odl-mdsal-apidocs",
+                            "odl-dlux-core",
+                            "odl-netvirt-ui",
+                            "odl-netvirt-sfc",
+                            "odl-l2switch-switch",
+                            "odl-openflowplugin-all",
+                            "odl-ovsdb-openstack",
+                            "odl-ovsdb-northbound"],
+        "port": 8080
+    },
 }
 PROFILES["default"] = PROFILES["openvswitch-odl"]
 
