@@ -85,7 +85,7 @@ def install():
         # the distribution tar.gz's name doesn't matter.
         install_dir_name = [
             f for f in os.listdir("/opt")
-            if f.startswith("distribution-karaf")][0]
+            if "karaf" in f][0]
         if not os.path.exists("/opt/opendaylight-karaf"):
             os.symlink(install_dir_name, "/opt/opendaylight-karaf")
     else:
