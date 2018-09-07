@@ -96,10 +96,7 @@ PROFILES = {
                             "odl-dlux-core",
                             "odl-netvirt-ui",
                             "odl-netvirt-sfc",
-                            "odl-l2switch-switch",
-                            "odl-openflowplugin-all",
-                            "odl-ovsdb-openstack",
-                            "odl-ovsdb-northbound"],
+                            "odl-l2switch-switch"],
         "port": 8080
     },
 }
