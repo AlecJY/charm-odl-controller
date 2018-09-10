@@ -83,7 +83,7 @@ PROFILES = {
         "port": 8080
     },
     "openvswitch-odl-boron-sfc": {
-        "feature:install": ["odl-netvirt-openstack".
+        "feature:install": ["odl-netvirt-openstack",
                             "odl-ovsdb-sfc-rest",
                             "odl-sfc-ui",
                             "odl-netvirt-openstack-sfc-translator-rest",
