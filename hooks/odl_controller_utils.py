@@ -83,9 +83,11 @@ PROFILES = {
         "port": 8080
     },
     "openvswitch-odl-boron-sfc": {
-        "feature:install": ["odl-ovsdb-sfc-rest",
-                            "odl-dlux-all",
-                            "odl-l2switch-switch-ui"],
+        "feature:install": ["odl-netvirt-openstack".
+                            "odl-ovsdb-sfc-rest",
+                            "odl-sfc-ui",
+                            "odl-netvirt-openstack-sfc-translator",
+                            "odl-dlux-all"],
         "port": 8080
     },
     "openvswitch-odl-nitrogen-sfc": {
