@@ -86,6 +86,8 @@ PROFILES = {
         "feature:install": ["odl-netvirt-openstack",
                             "odl-ovsdb-sfc-rest",
                             "odl-sfc-ui",
+                            "odl-sfc-sb-rest",
+                            "odl-sfc-ovs",
                             "odl-netvirt-openstack-sfc-translator-rest",
                             "odl-dlux-all"],
         "port": 8080
