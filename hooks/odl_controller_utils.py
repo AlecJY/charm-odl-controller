@@ -98,8 +98,12 @@ PROFILES = {
                             "odl-netvirt-openstack",
                             "odl-mdsal-apidocs",
                             "odl-dlux-core",
+                            "features-dluxapps",
                             "odl-netvirt-ui",
                             "odl-netvirt-sfc",
+                            "odl-sfc-ui",
+                            "odl-sfc-sb-rest",
+                            "odl-sfc-ovs",
                             "odl-l2switch-switch"],
         "port": 8080
     },
