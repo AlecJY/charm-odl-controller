@@ -92,6 +92,27 @@ PROFILES = {
                             "odl-dlux-all"],
         "port": 8080
     },
+    "openvswitch-odl-carbon-sfc": {
+        "feature:install": ["odl-restconf-all",
+                            "odl-aaa-authn",
+                            "odl-netvirt-openstack",
+                            "odl-mdsal-apidocs",
+                            "odl-dlux-core",
+                            "odl-dluxapps-applications",
+                            "odl-dluxapps-nodes",
+                            "odl-dluxapps-topology",
+                            "odl-dluxapps-yangui",
+                            "odl-dluxapps-yangman",
+                            "odl-dluxapps-yangvisualizer",
+                            "odl-dluxapps-yangutils",
+                            "odl-netvirt-ui",
+                            "odl-netvirt-sfc",
+                            "odl-sfc-ui",
+                            "odl-sfc-sb-rest",
+                            "odl-sfc-ovs",
+                            "odl-l2switch-switch"],
+        "port": 8080
+    },
     "openvswitch-odl-nitrogen-sfc": {
         "feature:install": ["odl-restconf-all",
                             "odl-aaa-authn",
