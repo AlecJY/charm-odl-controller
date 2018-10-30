@@ -110,6 +110,8 @@ PROFILES = {
                             "odl-sfc-ui",
                             "odl-sfc-sb-rest",
                             "odl-sfc-ovs",
+                            "odl-sfc-scf-openflow",
+                            "odl-sfc-openflow-renderer",
                             "odl-l2switch-switch"],
         "port": 8080
     },
