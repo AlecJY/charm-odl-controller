@@ -130,6 +130,16 @@ PROFILES = {
                             "odl-l2switch-switch"],
         "port": 8080
     },
+    "openvswitch-odl-fluorine-sfc": {
+        "feature:install": ["odl-restconf-all",
+                            "odl-netvirt-openstack",
+                            "odl-mdsal-apidocs",
+                            "odl-netvirt-sfc",
+                            "odl-sfc-sb-rest",
+                            "odl-sfc-ovs"],
+        "port": 8080
+    },
+
 }
 PROFILES["default"] = PROFILES["openvswitch-odl"]
 
